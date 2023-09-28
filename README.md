@@ -1,8 +1,17 @@
-# React + Vite
+## Image Gallary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# API (https://api.slingacademy.com/v1/sample-data/photos?offset=5&limit=20)
 
-Currently, two official plugins are available:
+### Setting Up the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Install dependencies locally:
+
+```bash
+npm install
+```
+
+Run the application:
+
+```bash
+npm run dev
+```
