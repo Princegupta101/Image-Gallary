@@ -1,16 +1,15 @@
+import { Link } from 'react-router-dom'
 import GallaryList from './components/GallaryList/GallaryList'
-import Search from './components/Search/Search'
-
+import CustonRoutes from './components/routes/CoustomRoutes'
 function App() {
-
   return (
-    <div className="flex flex-col justify-center  text-center">
-    <h1 className="text-3xl font-bold tracking-[.5em] mt-8  ">  GALLARY</h1>
-    <Search/>
-    <GallaryList/>
-  </div>
-)
-  
+    <div className="text-center">
+      <Link to="/">
+        <h1 className=" text-5xl font-bold underline underline-offset-1 tracking-[.35em] mt-8  ">  GALLARY</h1>
+      </Link>
+      <CustonRoutes/>
+    </div>
+  ) 
 }
 
 export default App
